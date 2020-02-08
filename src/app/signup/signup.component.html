@@ -1,0 +1,11 @@
+<div class="d-flex">
+    <form class="form-inline mt-2">
+        <input #first type="text" name="" id="" value="" class="form-control ml-2" placeholder="First Name">
+        <input #last type="text" name="" id="" value="" class="form-control ml-2" placeholder="Last Name">
+        <input #mb type="number" name="" id="" value="" class="form-control ml-2" placeholder="Mobile Number">
+        <input #email type="email" value="" class="form-control ml-2" placeholder="email@example.com">
+        <input #pass type="password" value="" class="form-control ml-2" name="" id="" placeholder="password">
+        <button type="submit" (click)="signUp(first.value,
+        last.value,mb.value,email.value,pass.value)" class="btn btn-primary my-2 mx-2">Sign Up</button>
+    </form>
+</div>
